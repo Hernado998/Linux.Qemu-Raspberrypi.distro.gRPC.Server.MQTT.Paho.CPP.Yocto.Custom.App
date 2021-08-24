@@ -75,7 +75,7 @@ The main target of this work is to create a gRPC server application based on Pah
 	runqemu qemux86-64
 ```
 
-***To bake a raspberrypi4 (64bit) distro add/modify the following steps !***
+# ***To bake a raspberrypi4 (64bit) distro add/modify the following steps !***
 
 **3-** git clone git clone --branch hardknott git://git.yoctoproject.org/meta-raspberrypi
 
