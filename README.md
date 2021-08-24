@@ -2,6 +2,8 @@
 
 The main target of this work is to create a gRPC server application based on Paho library in a custom build linux distribution, using the YOCTO Project/ Poky reference.
 
+# QEMU:
+
 **1- Install required packages The following packages are  in Ubuntu:**
 ```css
 	sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib \
@@ -75,7 +77,7 @@ The main target of this work is to create a gRPC server application based on Pah
 	runqemu qemux86-64
 ```
 
-# ***To bake a raspberrypi4 (64bit) distro add/modify the following steps !***
+# To bake a raspberrypi4 (64bit) distro add/modify the following steps :
 
 **3-** git clone git clone --branch hardknott git://git.yoctoproject.org/meta-raspberrypi
 
