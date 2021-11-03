@@ -61,6 +61,8 @@ the C++ gRPC server scripts Github link: https://github.com/Hernado998/gRPC.Serv
 	meta-oe               ~/poky/meta-openembedded/meta-oe
 	meta-python	      ~/poky/meta-openembedded/meta-python \
         meta-networking       ~/poky/meta-openembedded/meta-networking \
+	
+![Repository](poky.png)
 
 **9- Open yocto/poky/qemubuild/conf/local.conf and add these lignes:**
 ```css
@@ -129,4 +131,5 @@ wpa_supplicant -Dnl80211 -iwlan0 -c/etc/wpa_supplicant.conf"
 https://www.howtogeek.com/687970/how-to-run-a-linux-program-at-startup-with-systemd/
 
 
+![Workflow](finalworkflow.png)
 
