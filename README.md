@@ -2,7 +2,7 @@
 
 The main target of this work is to create a gRPC server application based on Paho library in a custom build linux distribution, using the YOCTO Project/ Poky reference.
 the C++ gRPC server scripts Github link: https://github.com/Hernado998/gRPC.Server.MQTT.PAHO.CPP
-
+![Targets](targets.png)
 # QEMU:
 
 **1- Install required packages The following packages are  in Ubuntu:**
@@ -132,6 +132,6 @@ wpa_supplicant -Dnl80211 -iwlan0 -c/etc/wpa_supplicant.conf"
 **To connect your Raspberry Pi4 to wifi on boot follow these steps:**
 https://www.howtogeek.com/687970/how-to-run-a-linux-program-at-startup-with-systemd/
 
-![Targets](targets.png)
+
 ![Workflow](finalworkflow.png)
 
