@@ -114,6 +114,8 @@ network={
 ```
 **12-** bitbake rpi-server-image
 
+![BitBake](bitbaking.png)
+
 **To write the rpi image to an sd card follow these steps :**
 ```css
 	cd ~/yocto/poky/rpibuild/tmp/deploy/images/raspberrypi4-64
@@ -130,6 +132,6 @@ wpa_supplicant -Dnl80211 -iwlan0 -c/etc/wpa_supplicant.conf"
 **To connect your Raspberry Pi4 to wifi on boot follow these steps:**
 https://www.howtogeek.com/687970/how-to-run-a-linux-program-at-startup-with-systemd/
 
-
+![Targets](targets.png)
 ![Workflow](finalworkflow.png)
 
